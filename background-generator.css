@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: linear-gradient(to right,rgb(134,168,207),rgb(255, 131, 199));
+    text-align: center;
+    padding: 4%;
+}
+h2{
+    padding: 4%;
+}
+h3{
+    padding: 4%;
+}
+.co-pattle{
+    padding: 4%;
+}
+h1{
+    margin:0;
+    padding:0;
+    font-size:120px;
+    text-transform:uppercase;
+    position:relative;
+    color:#ccc;
+  }
+  h1:before{
+    content:"Background Generator";
+    position:absolute;
+    color:#262626;
+    top:0;
+    left:0;
+    width:0%;
+    overflow:hidden;
+    transition:all 0.5s;
+  }
+  h1:hover:before{
+    width:100%;
+  }
+
+h2 {
+  font-size: 4em;
+  font-weight: 500;
+  color: #222;
+  letter-spacing: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+h2:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
